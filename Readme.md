@@ -1,0 +1,3 @@
+FORMULAIRE DE L'EXERCICE2
+
+Ce code comprend un simple formulaire de connexion avec un champ de texte pour le nom et un bouton d'envoi. Lorsque le formulaire est soumis, les données sont envoyées à la page submit.php, qui démarre une session et stocke le nom dans une variable de session. Si le formulaire n'a pas été soumis, l'utilisateur est redirigé vers la page de connexion. Sur la page welcome.php, le code vérifie si l'utilisateur est connecté en contrôlant la valeur de la variable de session. Si l'utilisateur est connecté, un message de bienvenue s'affiche. Dans le cas contraire, le visiteur est informé que l'utilisateur n'est pas reconnu et reçoit un lien pour se connecter à partir de la première page.
